@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menuall">
+        <item
+            android:id="@+id/nav_logout"
+            android:visible="true"
+            android:checked="false"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_login"
+            android:visible="true"
+            android:checked="false"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="@string/login" />
+    </group>
+</menu>
